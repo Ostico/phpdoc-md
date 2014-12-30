@@ -39,9 +39,9 @@ Constants
 {% for constant in constants %}
 
 ### {{ constant.name }}
-
+```php
     {{ constant.signature|raw }}
-
+```
 {{ property.description|raw }}
 
 {% if constant.deprecated %}* **Warning:** this constant is **deprecated**. This means that this constant will likely be removed in a future version.
