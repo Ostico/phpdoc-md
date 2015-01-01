@@ -76,7 +76,7 @@ class Parser
             $className = (string)$class->full_name;
             $className = ltrim($className,'\\');
 
-            $fileName = str_replace('\\','-', $className) . ''; //'.md';
+            $fileName = str_replace('\\','-', $className) . '.md';
 
             $implements = array();
 
