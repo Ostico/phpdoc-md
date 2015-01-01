@@ -100,7 +100,8 @@ class Generator
             )
         );
 
-        file_put_contents($this->outputDir . '/ApiIndex.md', $index);
+//        file_put_contents($this->outputDir . '/ApiIndex.md', $index);
+        file_put_contents($this->outputDir . '/ApiIndex', $index);
 
     }
 
